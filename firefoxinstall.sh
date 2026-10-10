@@ -455,7 +455,7 @@ echo
 
 echo "[6/10] Updating APT package lists..."
 
-if ! apt-get update; then
+if ! apt update; then
 
     echo
     echo "ERROR: apt-get update failed."
@@ -646,7 +646,7 @@ echo " Installing Firefox DEB"
 echo "=============================================="
 echo
 
-if ! apt-get install -y firefox; then
+if ! apt install firefox; then
 
     echo
     echo "=============================================="
